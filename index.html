@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arun Kumar Maurya | Data Scientist</title>
+  <meta name="description" content="Portfolio of Arun Kumar Maurya: data science projects, certificates, experience and articles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">Arun Kumar Maurya</a>
+    <nav id="menu" aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#experience">Experience</a>
+      <a href="#articles">Articles</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu">Menu</button>
+  </header>
+
+  <main>
+    <!-- Slider -->
+    <section id="home" class="slider" aria-roledescription="carousel" aria-label="Introduction">
+      <div class="slides" id="slides">
+        <figure class="slide">
+          <img src="assets/slide1.jpg" alt="">
+          <figcaption><h1>Hi, I am Arun Kumar Maurya.</h1></figcaption>
+        </figure>
+        <figure class="slide">
+          <img src="assets/slide2.jpg" alt="">
+          <figcaption><h2>Welcome to my data science portfolio!</h2></figcaption>
+        </figure>
+        <figure class="slide">
+          <img src="assets/slide3.jpg" alt="">
+          <figcaption><h2>You can find my work, thoughts, and ideas here.</h2></figcaption>
+        </figure>
+      </div>
+      <button class="arrow prev" aria-label="Previous slide">&#8249;</button>
+      <button class="arrow next" aria-label="Next slide">&#8250;</button>
+      <div class="dots" id="dots"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap about">
+        <figure class="about-photo">
+          <img src="assets/profile.jpg" alt="Portrait of Arun Kumar Maurya" width="400" height="480">
+        </figure>
+        <div class="about-text">
+          <h2>Arun in a Nutshell</h2>
+          <p>I am a data scientist who likes turning raw numbers into clear answers. I believe <strong>good data work is part analysis and part storytelling</strong>, and I try to do both in every project.</p>
+          <p>Most of my time goes into Python, SQL and machine learning: cleaning data, finding patterns, and building models that people can actually use. My skills include <strong>data analysis, visualization and machine learning</strong>, and I enjoy end-to-end projects that start with collecting data and end with a working app or dashboard.</p>
+          <p>Outside work I build personal projects such as a stock tracking dashboard and a trading bot, and I write about what I learn on Medium and Towards Data Science. Browse my projects and articles below, and feel free to open the code and try it yourself.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <div class="grid cols-4" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="grid cols-4" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section alt">
+      <div class="wrap">
+        <h2>Courses and certificates</h2>
+        <div class="grid cols-4" id="certificates-grid"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="wrap">
+        <h2>Experience</h2>
+        <div class="grid cols-4" id="experience-grid"></div>
+      </div>
+    </section>
+
+    <section id="articles" class="section alt">
+      <div class="wrap">
+        <h2>Articles</h2>
+        <div class="grid cols-4" id="articles-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p class="lead">Thanks for visiting. Reach out for a role, a project or a chat about data.</p>
+        <div class="grid cols-3" id="contact-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap">© <span id="year"></span> Arun Kumar Maurya. All rights reserved.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
