@@ -51,7 +51,7 @@ const articles = [
 ];
 
 const contacts = [
-  { title: "Email", text: "you@example.com", url: "mailto:you@example.com" },
+  { title: "Email", text: "you@example.com", url: "akmaurya312312@gmail.com" },
   { title: "LinkedIn", text: "Connect with me", url: "https://www.linkedin.com/in/your-handle" },
   { title: "GitHub", text: "See my code", url: "https://github.com/your-handle" },
   { title: "Medium profile", text: "Read my articles", url: "https://medium.com/@your-handle" },
