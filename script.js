@@ -52,11 +52,11 @@ const articles = [
 
 const contacts = [
   { title: "Email", text: "you@example.com", url: "akmaurya312312@gmail.com" },
-  { title: "LinkedIn", text: "Connect with me", url: "https://www.linkedin.com/in/your-handle" },
-  { title: "GitHub", text: "See my code", url: "https://github.com/your-handle" },
-  { title: "Medium profile", text: "Read my articles", url: "https://medium.com/@your-handle" },
+  { title: "LinkedIn", text: "Connect with me", url: "linkedin.com/in/arun-kumar-maurya-0960aa158" },
+  { title: "GitHub", text: "See my code", url: "https://github.com/Arunk312" },
+  { title: "Medium profile", text: "Read my articles", url: "https://medium.com/@akmaurya312312" },
   { title: "Towards Data Science", text: "My published articles", url: "https://towardsdatascience.com/author/your-handle" },
-  { title: "Kaggle", text: "Notebooks and datasets", url: "https://www.kaggle.com/your-handle" }
+  { title: "Kaggle", text: "Notebooks and datasets", url: "https://www.kaggle.com/arunkumarmaurya" }
 ];
 
 // ===== Rendering =====
